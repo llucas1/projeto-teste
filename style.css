@@ -1,0 +1,81 @@
+p {
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 15px;
+   text-align: center;
+   text-shadow: 1px 1px 1px #111111;
+}
+body {
+    background-color: #000000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+/* topo */
+
+header {
+    background-color: #35b8b0;
+    height: 80px;
+    padding: 20px;
+}
+/*menus*/
+#logo {
+    float: left;
+}
+
+#menu {
+    float: right;
+    margin-top: 30px;
+}
+#menu a{
+    padding: 20px 20px;
+    text-decoration: none;
+    color: salmon;
+    text-shadow:  1px 1px 1px #111111;
+}
+#menu a:hover{
+    background-color: black;
+    color: #35b8b0;
+    -webkit-transition: 0.3s;
+}
+
+/* divis*/
+#div_principal {
+    background-image: url('corpo.jpg');
+   color: white;
+    min-height: 500px;
+    width: 100%;
+    background-size: 50%;
+    padding: 100px 0px 0px 0px;
+    clear: both;
+}
+/* container */
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+/* roda pe */
+footer {
+    clear: both;
+    background-color: #35b8b0;
+    height: 50px;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+h1 {
+    color: #ff7f50;
+    text-align: center;
+    margin: 0 0 50px 0;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+.efeito {
+    background-color: rgba(0,0, 0,0.5);
+    padding: 80px 0 80px 0;
+}
